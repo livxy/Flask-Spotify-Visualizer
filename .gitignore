@@ -106,6 +106,7 @@ celerybeat.pid
 .venv
 env/
 venv/
+.cache-aidan-332
 ENV/
 env.bak/
 venv.bak/
