@@ -1,4 +1,4 @@
-# Spotify-Visualizer
+# Spotify-Visualizer (W.I.P.)
 W.I.P. project using flask and python to display Spotify, but in a simplistic manner.
 
 ![image](https://user-images.githubusercontent.com/67598470/202959948-b937d9fa-254d-4df4-abd8-1ff912bf77af.png)
