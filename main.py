@@ -193,5 +193,5 @@ def index():
 #     return render_template('analysis.html', song_analysis=song_analysis)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False) # Set to False when deploying to production
 
