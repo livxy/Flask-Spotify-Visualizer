@@ -25,7 +25,7 @@ You can find your Spotify Client ID & Client Secret by making an application at 
 6. Run the file called `main.py`
 7. It should open your browser and ask for authorization. Click ok on that. If you didn't get redirected to `http://localhost:8080/`, type that link in your browser. It should work, just play a song/restart it and refresh the site to get it to automatically refresh :) 
 
-##Future Features:
+## Future Features:
 * Play bar (not functional most likely) + Timestamp
 * Organized Tabs
 * HTML/CSS/JS TEMPLATES FOR FLASK 😭😭😭😭😭 (dont understand how to rn)
