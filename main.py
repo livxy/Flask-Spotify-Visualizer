@@ -89,9 +89,12 @@ def index():
     #! lol just kidding i dont know how to make a goddamn template :sob: 
     return f"""
   <script>
+    var duration = {duration};
     setTimeout(function(){{
         location.reload();
-    }}, {duration_ms / 1000});    
+        console.log("Reloading page...");
+        print(duration);
+    }}, {duration});   
   </script>
   <style>
     * {{
