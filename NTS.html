@@ -1,0 +1,61 @@
+<style>
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 48px;
+    grid-row-gap: 15px;
+  }
+
+  .div1 {
+    grid-area: 3 / 1 / 4 / 2;
+    background: orange;
+    text-align: center;
+  }
+  .div2 {
+    grid-area: 3 / 2 / 4 / 3;
+    background: lightgreen;
+    text-align: center;
+  }
+  .div3 {
+    grid-area: 3 / 3 / 4 / 6;
+    background: skyblue;
+    text-align: center;
+  }
+  .div4 {
+    grid-area: 4 / 1 / 5 / 2;
+    background: lightgrey;
+    text-align: center;
+  }
+  .div5 {
+    grid-area: 4 / 2 / 5 / 3;
+    background: lightyellow;
+    text-align: center;
+  }
+  .div6 {
+    grid-area: 4 / 3 / 5 / 4;
+    background: LightCoral;
+    text-align: center;
+  }
+  .div7 {
+    grid-area: 4 / 4 / 5 / 5;
+    background: LightSlateGray;
+    text-align: center;
+  }
+  .div8 {
+    grid-area: 4 / 5 / 5 / 6;
+    background: LightSteelBlue;
+    text-align: center;
+  }
+</style>
+
+<div class="parent">
+  <div class="div1">1 - Album Art</div>
+  <div class="div2">2 - Song Name</div>
+  <div class="div3">3 - Play Bar 1:00</div>
+  <div class="div4">4 - Artist Art</div>
+  <div class="div5">5 - Artist(s) Name(s)</div>
+  <div class="div6">6 - 1/3 of the "Audio Features"</div>
+  <div class="div7">7 - 1/3 of the "Audio Features"</div>
+  <div class="div8">8 - 1/3 of the "Audio Features"</div>
+</div>
